@@ -18,8 +18,8 @@ import java.util.UUID;
 import java.util.concurrent.*;
 
 public class MainActivity extends Activity {
-    private static final String MODEL_URL = "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/resolve/main/Qwen3.5-2B-Q4_K_M.gguf";
-    private static final String SHA = "aaf42c8b7c3cab2bf3d69c355048d4a0ee9973d48f16c731c0520ee914699223";
+    private static final String MODEL_URL = "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/resolve/718c63702535e6f3cc1318de25f020b258d6cdf5/Qwen3.5-2B-Q4_K_M.gguf";
+    private static final String SHA = "cbb39d5102a6e6ef9675912b1c21d02335f4374c6bc267faa6cb96d7987d4a7b";
     private final ExecutorService worker = Executors.newSingleThreadExecutor();
     private final JSONArray history = new JSONArray();
     private volatile boolean canceled, closed;
